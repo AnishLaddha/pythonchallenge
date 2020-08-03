@@ -1256,3 +1256,5 @@ PBuijeoTSpsVLaOGuLVjMZXkBvVXwUuHfBihziiavGSYofPNeKsTXruMUumRRPQJzvSzJkKbtSipiqBd
 
 
 print(len(str))
+#url = http://www.pythonchallenge.com/pc/def/equality.html
+#look at page source
