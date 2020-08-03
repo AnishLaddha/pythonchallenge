@@ -1258,3 +1258,13 @@ PBuijeoTSpsVLaOGuLVjMZXkBvVXwUuHfBihziiavGSYofPNeKsTXruMUumRRPQJzvSzJkKbtSipiqBd
 print(len(str))
 #url = http://www.pythonchallenge.com/pc/def/equality.html
 #look at page source
+
+let_list = list(str)
+i = 4
+while i<len(let_list)-5:
+    if let_list[i-4].islower() and let_list[i-3].isupper() and let_list[i-2].isupper() and let_list[i-1].isupper():
+        if let_list[i+4].islower() and let_list[i+3].isupper() and let_list[i+2].isupper() and let_list[i+1].isupper():
+            if let_list[i].islower():
+                print(let_list[i])
+    i+=1
+    
